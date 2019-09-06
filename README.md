@@ -32,11 +32,11 @@ Learn PHP
 - Create username.conf <cd /etc/apache2/users>
 - sudo <text editor> username.conf
 - Add the text below 
-<Directory "/Users/username/Sites/">
-AllowOverride All
-Options Indexes MultiViews FollowSymLinks
-Require all granted
-</Directory>
+# <Directory "/Users/username/Sites/">
+# AllowOverride All
+# Options Indexes MultiViews FollowSymLinks
+# Require all granted
+# </Directory>
 - Open the httpd.conf </etc/apache2/httpd.conf>
 - Uncomment these lines 
 LoadModule authz_core_module libexec/apache2/mod_authz_core.so
@@ -48,15 +48,15 @@ LoadModule php7_module libexec/apache2/libphp7.so
 Include /private/etc/apache2/extra/httpd-userdir.conf
 
 - In the same file, Override .htaccess and allow URL rewrites, like in the text below 
-- AllowOverride controls what directives may be placed in .htaccess files.
-- It can be "All", "None", or any combination of the keywords:
-- AllowOverride FileInfo AuthConfig Limit
+# #AllowOverride controls what directives may be placed in .htaccess files.
+# #It can be "All", "None", or any combination of the keywords:
+# #AllowOverride FileInfo AuthConfig Limit
      
-- AllowOverride All
+# #AllowOverride All
 
-- Controls who can get stuff from this server.
+# #Controls who can get stuff from this server.
     
-- Require all granted
+# #Require all granted
     
     
 - Open the http-userdir.conf file  using <sudo <text editor> /etc/apache2/extra/httpd-userdir.conf> and uncomment the text below 
