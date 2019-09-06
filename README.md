@@ -59,7 +59,7 @@ Include /private/etc/apache2/extra/httpd-userdir.conf
 - Require all granted
     
     
-- Open the http-userdir.conf file  using <sudo <text editor> /etc/apache2/extra/httpd-userdir.conf> and uncomment the txt below 
+- Open the http-userdir.conf file  using <sudo <text editor> /etc/apache2/extra/httpd-userdir.conf> and uncomment the text below 
 Include /private/etc/apache2/users/*.conf
 
 - Restart apache <sudo apachectl restart>
