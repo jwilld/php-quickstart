@@ -67,8 +67,8 @@ Include /private/etc/apache2/users/*.conf
 - To check if PHP is actually running create a index.php file using <sudo touch /Library/WebServer/Documents/index.php> and open it up with a text editor.
 - Then add  and save this PHP code
 
-<?php
-Echo “Hello World”;
-?>
+# <?php
+# Echo “Hello World”;
+# ?>
 
 - Then open it up using localhost/index.php
