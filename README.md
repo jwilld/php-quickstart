@@ -2,13 +2,13 @@
 hello world using php 
 Learn PHP
 
-##What is PHP?
+## What is PHP?
 - PHP is a server side scripting(which means that it’s used with other software and isn’t stand alone. For example, it can be embedded into HTML code or other web template systems) language used for static and Dynamic websites. 
 - It stands for HyperText Pre-processor but used to stand for Personal Home Page
 - It can only be used with servers that have PHP installed 
 - Client computers need a web browser to access PHP scripts
 
-##Why PHP?
+## Why PHP?
 - Large community
 - Simple to learn
 - Supported by most web hosting servers 
@@ -18,12 +18,12 @@ Learn PHP
 - It is also cross platform so it can be deployed on windows, Linux and Mac OS etc.
 - It is used by Facebook, Wikipedia and Wordpress
 
-##PHP Usage Tips
+## PHP Usage Tips
 - Case sensitive
 - Servers interpret PHP code and outputs the results as HTML code to web browsers
 - To be identified, the PHP code has to be enclosed in PHP  tags.
 
-##Installation 
+## Installation 
 - For PHP, Apache , a widely used web server software, is required. 
 - To use Apache on Mac type in  <sudo apachectl start >/<sudo apachectl stop>/<sudo apachectl restart>
 - <httpd -v> to get apache version
